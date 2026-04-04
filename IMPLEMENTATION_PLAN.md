@@ -100,9 +100,9 @@ def calculate_per_unit(expenses: List[Expense]) -> float:
 
 ## 🎨 Demo Flow
 1. Add budget 200000
-2. Add goods (100x1000), delivery 3000, packaging 30/unit
+2. Add goods (100x1000), delivery 3000, packaging 40/unit
 3. Show stats pie chart
-4. /per_unit = 1040 
+4. /per_unit = 1070 
 
 ## Tech Stack Summary
 - Backend: FastAPI, SQLAlchemy, Pydantic
