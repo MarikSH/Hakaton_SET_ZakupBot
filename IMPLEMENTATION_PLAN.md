@@ -58,11 +58,11 @@ GET /report/{user_id} - full summary
 ```
 
 ## 🎨 Frontend 
-- Chat-like UI (input + history расходов)
+- Chat-like UI (input + history)
 - Dashboard: budget bar, pie chart (Recharts)
 - Forms: category dropdown + qty/price inputs
-- PWA manifest для установки на телефон
-- Responsive для мобильных
+- PWA manifest for downloading to mobile phone
+- Responsive for mobiles
 
 ## 🗄 Database Schema
 ```sql
