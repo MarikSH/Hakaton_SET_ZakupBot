@@ -1,7 +1,7 @@
 
 # Procurement Cost Tracker - Implementation Plan
 
-## 🎯 MVP Scope (24 часа)
+## 🎯 MVP Scope 
 - [ ] Backend API (FastAPI)
 - [ ] Database (PostgreSQL)
 - [ ] Frontend PWA (React/Vue)
@@ -32,7 +32,7 @@ procure-app/
 └── README.md
 ```
 
-## 🛠 Backend (6 часов)
+## 🛠 Backend 
 ### Models
 ```python
 class User(Base):
@@ -57,7 +57,7 @@ GET /per_unit/{user_id} - cost per unit
 GET /report/{user_id} - full summary
 ```
 
-## 🎨 Frontend (8 часов)
+## 🎨 Frontend 
 - Chat-like UI (input + history расходов)
 - Dashboard: budget bar, pie chart (Recharts)
 - Forms: category dropdown + qty/price inputs
@@ -97,22 +97,12 @@ def calculate_per_unit(expenses: List[Expense]) -> float:
 3. Frontend → Vercel/Netlify (static PWA)
 4. CORS setup для frontend-backend
 
-## ⏱ Timeline (24h hackathon)
-```
-0-2h: DB schema + FastAPI CRUD
-2-6h: Frontend dashboard + charts
-6-8h: Expense forms + parsing
-8-10h: Per-unit logic + reports
-10-12h: PWA + responsive
-12-18h: Docker + testing
-18-24h: Polish + demo prep
-```
 
 ## 🎨 Demo Flow
-1. Add budget $10K
-2. Add goods (100x$50), delivery $500, packaging $2/unit
+1. Add budget 200000
+2. Add goods (100x1000), delivery 3000, packaging 30/unit
 3. Show stats pie chart
-4. /per_unit = $52.50 → "Sell above $60 for profit!"
+4. /per_unit = 1040 
 
 ## Tech Stack Summary
 - Backend: FastAPI, SQLAlchemy, Pydantic
