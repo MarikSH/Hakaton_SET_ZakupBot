@@ -10,26 +10,38 @@
 
 ## 📁 Project Structure
 ```
-procure-app/
+procurement-tracker/
 ├── backend/
 │   ├── app/
-│   │   ├── main.py          # FastAPI app
-│   │   ├── models.py        # SQLAlchemy models
-│   │   ├── schemas.py       # Pydantic
-│   │   ├── crud.py          # DB operations
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── nlp.py
 │   │   └── api/
-│   │       └── expenses.py  # /expenses endpoints
+│   │       └── purchases.py
 │   ├── requirements.txt
 │   └── Dockerfile
 ├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── components/
-│   │   └── pages/
 │   ├── public/
-│   └── vite.config.js
-├── docker-compose.yml
-└── README.md
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── i18n/
+│   │   │   ├── index.js
+│   │   │   └── locales/
+│   │   │       ├── ru.json
+│   │   │       └── en.json
+│   │   ├── api.js
+│   │   ├── App.jsx
+│   │   └── components/
+│   │       └── Calculator.jsx
+│   ├── vite.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── nginx.conf
+│   └── Dockerfile
+└── docker-compose.yml
 ```
 
 ## 🛠 Backend 
