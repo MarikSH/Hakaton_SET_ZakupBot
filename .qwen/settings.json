@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(pip3 install *)",
+      "Bash(python *)",
+      "Bash(py *)",
+      "Bash(docker *)",
+      "Bash(curl *)",
+      "Bash(echo.)",
+      "Bash(ngrok *)",
+      "Bash(winget *)",
+      "Bash(powershell *)",
+      "Bash(npx *)",
+      "Bash(timeout *)",
+      "Bash(findstr *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(git pull *)",
+      "Bash(ssh *)",
+      "Bash(taskkill *)",
+      "Bash(start *)",
+      "Bash(tasklist)",
+      "Bash(c:\\users\\user\\desktop\\hakaton_set_zakupbot\\cloudflared.exe *)",
+      "Bash(dir *)"
+    ]
+  },
+  "$version": 3
+}
