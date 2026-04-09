@@ -189,3 +189,15 @@ docker compose up -d --build
 6. Export: Click 📄 Download PDF → Download test_2026-04-09.pdf (~180 KB)
 7. History: Save to history → View later → Delete if needed
 
+---
+
+## 🧰 Tech Stack Summary
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Backend** | FastAPI, SQLAlchemy, PostgreSQL, Pydantic | REST API, data models, validation |
+| **Frontend** | React 18, Vite, Tailwind CSS, i18next | UI, state management, translations |
+| **PDF Engine** | jsPDF + jspdf-autotable + Roboto fonts | Vector PDF generation with Cyrillic |
+| **State/UX** | React Hooks, ThemeContext, localStorage | Theme toggle, draft restoration |
+| **Infra** | Docker Compose, Nginx, GitHub Actions | Local dev, reverse proxy, CI/CD ready |
+
