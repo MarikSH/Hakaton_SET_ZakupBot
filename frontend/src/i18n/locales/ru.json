@@ -1,0 +1,65 @@
+{
+  "language": "ru",
+  "home": {
+    "title": "📦 Procurement Tracker",
+    "subtitle": "Расчёт себестоимости для маркетплейсов",
+    "procurementTitle": "Название закупки",
+    "startBtn": "🚀 Начать закупку",
+    "procNamePlaceholder": "Например: Закупка электроники",
+    "continueBtn": "Продолжить",
+    "cancelBtn": "Отмена",
+    "untitled": "Без названия"
+  },
+  "settings": {
+    "title": "⚙️ Настройки",
+    "language": "Язык",
+    "theme": "Тема",
+    "light": "☀️ Светлая",
+    "dark": "🌙 Тёмная",
+    "close": "Закрыть"
+  },
+  "history": {
+    "title": "🕐 История закупок",
+    "empty": "Нет завершённых закупок",
+    "loading": "Загрузка..."
+  },
+  "calculator": {
+    "backBtn": "Назад",
+    "budgetLabel": "💰 Бюджет (₽)",
+    "productsLabel": "🛍️ Товары",
+    "addProductBtn": "+ Добавить товар",
+    "expensesHint": "💡 Доп. расходы (вводите списком)",
+    "expensesPlaceholder": "доставка 3000\nсклад 6000\n...",
+    "calcBtn": "📊 Итоговый расчёт",
+    "calcBtnLoading": "Считаем...",
+    "completeBtn": "✅ Завершить закупку",
+    "untitled": "Без названия",
+    "notesLabel": "Заметки",
+    "notesPlaceholder": "Поставщик, условия, важные детали...",
+    "backToForm": "Вернуться к вводу"
+  },
+  "report": {
+    "title": "📋 Отчёт",
+    "product": "Товар",
+    "quantity": "Кол-во",
+    "purchasePerUnit": "Закупка за 1 шт",
+    "overheadPerUnit": "Накладные на 1 шт",
+    "totalCostPerUnit": "Себестоимость за 1 шт",
+    "budget": "Бюджет",
+    "totalSpent": "Всего потрачено",
+    "remaining": "Остаток",
+    "overBudget": "Перерасход",
+    "purchaseTotal": "Закупка товаров",
+    "totalPurchaseCost": "Сумма закупки",
+    "notesLabel": "Примечания:",
+    "expenseStructure": "Структура расходов"
+  },
+  "categories": {
+    "delivery": "🚚 Доставка",
+    "packaging": "📦 Упаковка",
+    "workers": "👷 Рабочие",
+    "design": "🎨 Дизайн/Инфографика",
+    "warehouse": "🏢 Хранение/Склад",
+    "other": "⚙️ Прочее"
+  }
+}

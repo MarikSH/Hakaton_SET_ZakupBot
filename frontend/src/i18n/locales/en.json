@@ -1,0 +1,65 @@
+{
+  "language": "en",
+  "home": {
+    "title": "📦 Procurement Tracker",
+    "subtitle": "Cost calculation for marketplace sellers",
+    "procurementTitle": "Procurement Name",
+    "startBtn": "🚀 Start Procurement",
+    "procNamePlaceholder": "e.g., Electronics procurement",
+    "continueBtn": "Continue",
+    "cancelBtn": "Cancel",
+    "untitled": "Untitled"
+  },
+  "settings": {
+    "title": "⚙️ Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "☀️ Light",
+    "dark": "🌙 Dark",
+    "close": "Close"
+  },
+  "history": {
+    "title": "🕐 Procurement History",
+    "empty": "No completed procurements",
+    "loading": "Loading..."
+  },
+  "calculator": {
+    "backBtn": "Back",
+    "budgetLabel": "💰 Budget (₽)",
+    "productsLabel": "🛍️ Products",
+    "addProductBtn": "+ Add Product",
+    "expensesHint": "💡 Additional expenses (line by line)",
+    "expensesPlaceholder": "delivery 3000\nwarehouse 6000\n...",
+    "calcBtn": "📊 Final Calculation",
+    "calcBtnLoading": "Calculating...",
+    "completeBtn": "✅ Complete Procurement",
+    "untitled": "Untitled",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Supplier, terms, important details...",
+    "backToForm": "Back to editing"
+  },
+  "report": {
+    "title": "📋 Report",
+    "product": "Product",
+    "quantity": "Qty",
+    "purchasePerUnit": "Purchase/Unit",
+    "overheadPerUnit": "Overhead/Unit",
+    "totalCostPerUnit": "Total Cost/Unit",
+    "budget": "Budget",
+    "totalSpent": "Total Spent",
+    "remaining": "Remaining",
+    "overBudget": "Over Budget",
+    "purchaseTotal": "Product Purchase",
+    "totalPurchaseCost": "Purchase Total",
+    "notesLabel": "Notes:",
+    "expenseStructure": "Cost structure"
+  },
+  "categories": {
+    "delivery": "🚚 Delivery",
+    "packaging": "📦 Packaging",
+    "workers": "👷 Workers",
+    "design": "🎨 Design/Infographics",
+    "warehouse": "🏢 Warehouse/Storage",
+    "other": "⚙️ Other"
+  }
+}
