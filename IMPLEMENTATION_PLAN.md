@@ -49,6 +49,12 @@
 
 - [ ] ✏️ **Inline editing of procurement names**  
   *Add pencil icon → modal/input → update DB → refresh UI*
+- [ ] 🔄 **Currency converter (optional)**  
+  *Real-time RUB/USD/CNY rates for international sourcing*
+- [ ] 📲 **Native mobile wrapper (future)**  
+  *iOS/Android app via Capacitor/React Native*
+- [ ] 📱 **Full PWA support**  
+  *Install prompt, service worker, offline caching*
 
 *(Other ideas like CSV export, PWA, analytics are on hold until explicitly requested)*
 
