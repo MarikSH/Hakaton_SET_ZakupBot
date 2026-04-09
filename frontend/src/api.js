@@ -1,4 +1,4 @@
-const API = "http://localhost:8000"; // 🔹 Явный URL для локальной разработки
+const API = ""; // 🔹 Относительный URL — nginx проксирует /api/ к бэкенду
 
 const fetchWithCheck = async (url, options = {}) => {
   try {
